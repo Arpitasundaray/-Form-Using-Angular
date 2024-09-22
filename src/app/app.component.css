@@ -1,48 +1,32 @@
-/* Add some basic styles for the form and error messages */
-form {
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+
+  .form-group {
+    margin-bottom: 15px;
   }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  input[type='text'],
-  input[type='email'],
-  input[type='password'] {
+  .form-control {
     width: 100%;
-    padding: 8px;
-    margin: 5px 0 10px;
+    padding: 10px;
+    margin: 5px 0;
     border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button {
-    padding: 10px 15px;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    font-size: 16px;
     border-radius: 5px;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
   }
-  
-  button.btn-disabled {
-    background-color: #cccccc;
-    cursor: not-allowed;
+  .user-data {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
   }
-  
-  button:hover:not(.btn-disabled) {
-    background-color: #0056b3;
+  .user-data li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
   }
-  
-  .error {
-    color: red;
-    font-size: 0.875em;
-  }
-  

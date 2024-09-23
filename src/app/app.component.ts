@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormsModule, NgForm } from '@angular/forms'; // Import FormsModule for forms
+import { FormsModule, NgForm} from '@angular/forms'; // Import FormsModule for forms
 import { RouterOutlet } from '@angular/router';
 
 @Component({

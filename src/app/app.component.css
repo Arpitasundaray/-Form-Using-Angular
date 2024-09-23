@@ -1,32 +1,31 @@
-
-  .form-group {
-    margin-bottom: 15px;
-  }
-  .form-control {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  .error-message {
-    color: red;
-    font-size: 12px;
-  }
-  .btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  .user-data {
-    margin-top: 20px;
-    list-style-type: none;
-    padding: 0;
-  }
-  .user-data li {
-    background: #f9f9f9;
-    margin: 5px 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
+.form-group {
+  margin-bottom: 15px;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.user-data {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+.user-data li {
+  background: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
